@@ -19,11 +19,11 @@ body {
 }
 
 .image-holder {
-    height: 150px;
-    /* Set the height of the image holder as needed */
+    display: none;
+    /* Initially hide the image holder */
+    height: 100%;
     width: 100%;
     background: #ccc;
-    /* Set a background color or image */
 }
 
 h2 {
@@ -64,4 +64,11 @@ button:nth-child(2) {
     margin-right: -200px;
     background: white;
     color: #e94d58;
+}
+/* Adjust the size of the wrapper */
+.wrapper {
+    max-width: 400px;
+    /* Adjust the maximum width of the wrapper */
+    margin: 0 auto;
+    /* Center the wrapper */
 }

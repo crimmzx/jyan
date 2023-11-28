@@ -6,10 +6,10 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yay, see you on the 9th! :>";
+  question.innerHTML = "Yay, see you on the 9th 美女! :> ";
   gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
-  // You can set the source of the image holder here if needed
-  imageHolder.src = "IMG_20210905_161912.jpg";
+  imageHolder.style.display = "flex";
+  imageHolder.src = "IMG_7435.png";
 });
 
 noBtn.addEventListener("mouseover", () => {
