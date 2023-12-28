@@ -6,7 +6,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yay, see you on the 9th 美女! :> ";
+  question.innerHTML = "Yay, see you on the 21st 美女! :> ";
   gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
   imageHolder.style.display = "flex";
   imageHolder.src = "IMG_7435.png";
